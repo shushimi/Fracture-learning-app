@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --bg-color: #f8f9fa;
+    --text-color: #2c3e50;
+    --mask-color: #dee2e6;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hidden { display: none !important; }
+
+/* フェーズ①：カテゴリ選択 */
+#category-list {
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.category-btn {
+    padding: 20px;
+    font-size: 1.1rem;
+    border: none;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: left;
+    font-weight: bold;
+    border-left: 5px solid var(--primary-color);
+}
+
+.category-btn:active { transform: scale(0.98); }
+
+/* フェーズ②：穴埋め学習 */
+.cloze {
+    display: inline-block;
+    background-color: var(--mask-color);
+    color: transparent;
+    padding: 0 8px;
+    margin: 0 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-bottom: 2px solid #adb5bd;
+    user-select: none;
+}
+
+.cloze.revealed {
+    background-color: transparent;
+    color: #e74c3c;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.content-img {
+    display: block;
+    max-width: 200px; /* デフォルトは小さめ */
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+/* フェーズ③：クイズ */
+.quiz-opt {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background: white;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.quiz-opt:hover { border-color: var(--primary-color); }
+
+.next-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.secondary { background-color: #95a5a6; }
+
+/* モーダル（画像拡大） */
+.modal {
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none; /* JSで制御 */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* PC/タブレット向けの微調整 */
+@media (min-width: 601px) {
+    .category-btn:hover { background: #eef7ff; }
+    .content-img { max-width: 300px; }
+}
