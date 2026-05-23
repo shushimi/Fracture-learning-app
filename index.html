@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>骨折学習アプリ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1 id="header-title">骨折学習</h1>
+            <button id="home-btn" class="hidden">ホーム</button>
+        </header>
+
+        <main id="main-content">
+            <!-- フェーズ① -->
+            <section id="phase1" class="view">
+                <h2>カテゴリ選択</h2>
+                <div id="category-list"></div>
+            </section>
+
+            <!-- フェーズ② -->
+            <section id="phase2" class="view hidden">
+                <div id="learning-content"></div>
+                <button id="go-to-quiz" class="next-btn">確認問題へ進む</button>
+            </section>
+
+            <!-- フェーズ③ -->
+            <section id="phase3" class="view hidden">
+                <div id="quiz-container">
+                    <div id="quiz-progress"></div>
+                    <div id="quiz-question-text"></div>
+                    <div id="quiz-options"></div>
+                </div>
+                <div id="quiz-result" class="hidden">
+                    <h2>結果発表</h2>
+                    <p id="score-text"></p>
+                    <div class="result-buttons">
+                        <button id="retry-mistakes-btn" class="next-btn">間違えた問題を解き直す</button>
+                        <button id="back-to-home-btn" class="next-btn secondary">カテゴリ選択に戻る</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- 画像拡大用モーダル -->
+    <div id="image-modal" class="modal hidden">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <!-- データの読み込み（新しい部位が増えたらここに追加） -->
+    <script>window.courseData = {};</script> <!-- データ格納用オブジェクトの初期化 -->
+    <script src="js/data/metacarpal.js"></script>
+    <script src="js/data/phalanges.js"></script>
+    <script src="js/data/skull.js"></script>
+    <script src="js/data/cervical.js"></script>
+    
+    <!-- メインロジック -->
+    <script src="js/script.js"></script>
+</body>
+</html>
