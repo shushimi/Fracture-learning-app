@@ -7,7 +7,7 @@ window.courseData["metacarpal"] = {
             <li>発生頻度：指骨骨折よりも [低い] が手根骨骨折よりは [高い] （ [指骨] 骨折 ＞ [中手骨] 骨折 ＞ [手根骨] 骨折 ）</li>
         </ul>
 
-        <img src="assets/metacarpal_classification.jpg" class="content-img" alt="中手骨骨折の分類">
+        <img src="assets/metacarpal_classification.png" class="content-img" alt="中手骨骨折の分類">
         <p><strong>分類</strong><br>
         ① [骨頭部] 骨折<br>
         ② [頚部] 骨折<br>
@@ -29,22 +29,22 @@ window.courseData["metacarpal"] = {
         ・拳を強打することによって発生する<br>
         ・ [第4] 、 [第5] 中手骨の発生頻度が高い</p>
 
-        <img src="assets/fracture_site.jpg" class="content-img" alt="骨折部の図">
+        <img src="assets/fracture_site.png" class="content-img" alt="骨折部の図">
         <p><strong>症状</strong><br>
         ・骨折部は [背側凸] の変形を示す<br>
         →外力と骨間筋および虫様筋の作用による<br>
         ・遠位骨片が掌側に屈曲するため、骨頭の [隆起が消失] する<br>
         [ナックルパート消失]</p>
-        <img src="assets/knuckle_disappearance.jpg" class="content-img" alt="ナックルパート消失">
+        <img src="assets/knuckle_disappearance.png" class="content-img" alt="ナックルパート消失">
 
         <p><strong>整復法</strong></p>
-        <img src="assets/reduction_diagram.jpg" class="content-img" alt="整復図">
+        <img src="assets/reduction_diagram.png" class="content-img" alt="整復図">
         <p>① 手関節を軽度 [伸展] (背屈) 位に保持して固定する<br>
         ② 患指の [中手指節] 関節を [直角] に屈曲する<br>
         ③ 中手骨長軸末梢方向に牽引しつつ、基節骨を介して遠位骨片を背側に突き上げる。<br>
         ④ 一方の手で背側凸に変形した近位骨片骨折端に圧迫を加えて整復する。</p>
 
-        <img src="assets/reduction_steps.jpg" class="content-img" alt="整復手順">
+        <img src="assets/reduction_steps.png" class="content-img" alt="整復手順">
         <p><strong>☆中手指節関節を屈曲する理由</strong><br>
         中手指節関節の側副靭帯を [緊張] させ、中手骨頭に牽引力を有効に作用させるため</p>
 
@@ -60,7 +60,7 @@ window.courseData["metacarpal"] = {
         ・屈曲変形が残存すると伸展障害を起こすことがある<br>
         ・第2指、第3指ではCM関節による代償運動が期待できないため解剖学的整復が必要<br>
         ・回旋変形では [オーバーラッピングフィンガー] が生じ指が交叉することもある</p>
-        <img src="assets/overlapping_finger.jpg" class="content-img" alt="オーバーラッピングフィンガー">
+        <img src="assets/overlapping_finger.png" class="content-img" alt="オーバーラッピングフィンガー">
 
         <h4>3. 中手骨骨幹部骨折</h4>
         <p><strong>発生機序</strong><br>
@@ -69,18 +69,19 @@ window.courseData["metacarpal"] = {
         ・ [開放性] 骨折になる場合も多い<br>
         ② 斜骨折・螺旋状骨折<br>
         ・拳で物を強打したときの [徒手外力] によって発生する</p>
-        <img src="assets/shaft_fracture.jpg" class="content-img" alt="骨幹部骨折">
+        <img src="assets/shaft_fracture.png" class="content-img" alt="骨幹部骨折">
 
         <p><strong>転位</strong><br>
         ① 横骨折<br>
         ・遠位骨片は [掌側] に屈曲し、骨折部は [背側凸] の変形をきたす<br>
         ↳ 主に [骨間筋] の作用<br>
+        <img src="assets/shaft_fracture2.png" class="content-img" alt="骨幹部骨折2">
         ② 斜骨折・螺旋状骨折<br>
         ・ [回旋] 転位と [短縮] 転位が生じる<br>
         ・第 [2] と第 [5] 中手骨では転位が強く出現する<br>
         ↳ 理由： [深横中手靭帯] が一側からしか支持していないため<br>
         ・回旋転位は軽度であっても [オーバーラッピングフィンガー] の原因となる</p>
-        <img src="assets/shaft_oblique.jpg" class="content-img" alt="中手骨骨幹部骨折(斜骨折)">
+        <img src="assets/shaft_oblique.png" class="content-img" alt="中手骨骨幹部骨折(斜骨折)">
 
         <p><strong>整復・固定法</strong><br>
         ① 転位のない骨折： [良肢位] で固定する<br>
@@ -90,7 +91,7 @@ window.courseData["metacarpal"] = {
         ・固定範囲:短縮および回旋転位を起こさないように受傷指の掌側から [隣接指] を含めた固定ができる幅の副子をあてる<br>
         ・固定肢位：手関節 [軽度伸展] ( [背屈] ) 位 / MP関節 [20〜45°屈曲] 位 / PIP関節 [90°屈曲] 位 / DIP関節 [45°屈曲] 位<br>
         ・固定期間： [4〜6] 週</p>
-        <img src="assets/metacarpal_fixation.jpg" class="content-img" alt="中手骨骨折固定法">
+        <img src="assets/metacarpal_fixation.png" class="content-img" alt="中手骨骨折固定法">
 
         <h4>4. 第1中手骨基部骨折</h4>
         <p><strong>a. ベネット骨折[第1CM関節の脱臼骨折]</strong></p>
@@ -100,7 +101,7 @@ window.courseData["metacarpal"] = {
         <p><strong>発生機序</strong><br>
         ① 第1指を屈曲内転した位置で遠位から介達外力が作用<br>
         ② 第1指への急激な [外転] 強制 ・中手骨基部の [掌尺側] に三角形の小骨片が発生し、遠位骨片は関節包を損傷して橈側に脱臼する</p>
-        <img src="assets/base_fracture.jpg" class="content-img" alt="基部骨折">
+        <img src="assets/base_fracture.png" class="content-img" alt="基部骨折">
 
         <p><strong>症状</strong><br>
         ・母指は [内転屈曲変形] を呈し、基部の腫脹、限局性圧痛などが著明で、第1指の [内・外転運動が不能] になる</p>
@@ -110,7 +111,7 @@ window.courseData["metacarpal"] = {
         ・遠位骨片骨折端は [橈側] に転位<br>
         ・ [長母指外転筋] により [近位側] に引かれる<br>
         ・ [母指内転筋] によって遠位骨片全体が [内転屈曲] 位に転位</p>
-        <img src="assets/displacement_diagram.jpg" class="content-img" alt="転位図">
+        <img src="assets/displacement_diagram.png" class="content-img" alt="転位図">
 
         <p><strong>固定法</strong><br>
         ・固定肢位：手関節を [伸展] ( [背屈] ) 位かつ [橈屈] 位、 [第1中骨最大外転] 位<br>
@@ -124,14 +125,14 @@ window.courseData["metacarpal"] = {
         <p><strong>b. ローランド骨折</strong><br>
         ・ベネット骨折の掌尺側の小骨片に加えて、背側にも骨片を有する<br>
         ・ [T・V・Y字状] の [関節内] の骨折</p>
-        <img src="assets/rolando_fracture.jpg" class="content-img" alt="ローランド骨折">
+        <img src="assets/rolando_fracture.png" class="content-img" alt="ローランド骨折">
 
         <h4>5. 第5中手骨基部骨折</h4>
         <ul>
             <li> [逆ベネット] 骨折ともいわれる</li>
             <li> 遠位骨片の基部は [尺側手根伸筋] に牽引されて、第5手根中手関節(CM関節)内に三角形の骨片を残して脱臼する</li>
         </ul>
-        <img src="assets/fifth_metacarpal_base.jpg" class="content-img" alt="第5中手骨基部骨折">
+        <img src="assets/fifth_metacarpal_base.png" class="content-img" alt="第5中手骨基部骨折">
     `,
     questions: [
         {
