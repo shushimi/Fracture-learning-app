@@ -84,6 +84,7 @@ window.courseData["phalanges"] = {
 
         <p><strong>整復法</strong><br>
         ・術者の一方の手の母指と示指で骨折部の近位を挟み、他方の手の母指と示指で骨折部の遠位の指節を握り、末梢牽引を加えながら整復する</p>
+        <img src="assets/reduction of middle_fixation.png" class="content-img" alt="中節骨骨折整復法">
 
         <p><strong>固定法</strong><br>
         【浅指屈筋腱付着部より近位部での骨折】（背側凸変形）<br>
