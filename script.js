@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
         window.scrollTo(0, 0);
     }
 
-    // 穴埋めをタップした時の処理
+    // 穴埋めをタップした時の処理（表示・非表示の切り替え）
     window.reveal = (el) => {
-        el.classList.add('revealed');
+        el.classList.toggle('revealed'); // ★ここをtoggleに変更しました
     };
 
     // 画像タップで拡大
