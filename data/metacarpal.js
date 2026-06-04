@@ -68,7 +68,7 @@ window.courseData["metacarpal"] = {
         ・手背を強打するような [直達外力] によって発生する<br>
         ・ [開放性] 骨折になる場合も多い<br>
         ② 斜骨折・螺旋状骨折<br>
-        ・拳で物を強打したときの [徒手外力] によって発生する</p>
+        ・拳で物を強打したときの [介達外力] によって発生する</p>
         <img src="assets/shaft_fracture.png" class="content-img" alt="骨幹部骨折">
 
         <p><strong>転位</strong><br>
