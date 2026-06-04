@@ -234,7 +234,7 @@ window.courseData["skull"] = {
             </tr>
             <tr>
                 <td><strong>骨片転位</strong></td>
-                <td>頬骨弓陥没⇒ [側頭骨] を圧迫</td>
+                <td>頬骨弓陥没⇒ [側頭筋] を圧迫</td>
                 <td>[内下方] （[咬筋] の牽引）</td>
             </tr>
         </table>
